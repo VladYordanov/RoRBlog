@@ -1,0 +1,46 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	top: 0;
+}
+
+.nav {
+	border: 1px solid red;
+}
+
+.nav ul {
+	position: fixed;
+	margin-top: 0;
+	top: 0;
+	width: 100%;
+	background: #1d1d1d;
+}
+
+.nav li {
+	display: inline;
+	list-style-type: none;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 60px;
+	padding: 21px 20px;
+}
+
+.nav li a:hover {
+	background: #fff;
+	color: #1d1d1d;
+}
+
+.content {
+	margin-top: 80px;
+}
+
